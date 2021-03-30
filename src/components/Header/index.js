@@ -24,6 +24,11 @@ const Menu = styled.ul`
             color: #FFF;
         }
 
+        &:last-child:hover {
+            background: #FFF;
+            transition: 1s;
+        }
+
         &:hover {
             color: #0A4DF2;
         }
